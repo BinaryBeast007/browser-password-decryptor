@@ -43,7 +43,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Browser Password Decryptor is designed to extract and decrypt saved passwords from popular web browsers and send them as an email attachment. It provides a convenient way to retrieve passwords saved in browsers like Chrome, Brave, Edge, Firefox and Safari, and securely send them to a designated email address. Please note that this tool should only be used for educational and ethical purposes, and any unauthorized use may violate privacy laws and regulations.
+Browser Password Decryptor is designed to extract and decrypt saved passwords from popular web browsers and send them as an email attachment. It provides a convenient way to retrieve passwords saved in browsers like Chrome, Brave, Edge, Firefox and Opera, and securely send them to a designated email address. Please note that this tool should only be used for educational and ethical purposes, and any unauthorized use may violate privacy laws and regulations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,11 +128,20 @@ python src/main.py
 
 ## Features
 
--   **Password extraction from various web browsers:** The script supports extracting passwords from browsers such as Chrome, Brave, Edge, Firefox, Opera, and Safari.
+-   **Password extraction from various web browsers:** The script supports extracting passwords from browsers such as Chrome, Brave, Edge, Firefox, and Opera.
 -   **Password decryption:** The extracted password data is decrypted using AES encryption, allowing you to view the actual passwords associated with the accounts.
 -   **Email notification:** The decrypted passwords are sent as an attachment in an email to a specified recipient address, providing a way to securely access the extracted information.
 - **Cleanup:** Deletes the csv file and cache folder
 
+### Supported Browser [Windows]
+
+| Browser         | Password  |
+|:----------------|:---------:|
+| Google Chrome   |     ✅    |
+| Brave           |     ✅    |
+| Microsoft Edge  |     ✅    |
+| Firefox         |     ✅    |
+| Opera           |     ✅    |
 
 
 ## Executable
